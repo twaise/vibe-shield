@@ -116,6 +116,29 @@ async with VibePipeline("your_token", budget_cap=300.0) as pipe:
 
 ---
 
+## 🔬 Live API Verification (Verified against production)
+
+VibeShield has been tested and verified directly against the production VibeMarketolog API (`https://lk.vibemarketolog.ru/api/agent`).
+
+```text
+[1/3] Testing VibeMarketolog API authentication...
+  [OK] Balance: 598.8 RUB
+
+[2/3] Testing dry-run estimation (0 RUB charged)...
+  [OK] Dry-run estimated cost: 1.2 RUB
+
+[3/3] Executing real generation through VibeShield...
+
+==================================================
+  SUCCESS! Generation completed via live VibeMarketolog API!
+  Display URL: https://lk.vibemarketolog.ru/files/generation/25904...
+  Cost charged: 1.2 RUB
+  VibeShield Stats: {'circuit_breaker': {'is_tripped': False, 'total_cost_rub': 1.2}, 'cache': {'cache_hits': 0, 'cache_misses': 1}}
+==================================================
+```
+
+---
+
 ## Экономический эффект
 
 | Метрика | Без VibeShield | С VibeShield |
