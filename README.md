@@ -131,7 +131,7 @@ VibeShield has been tested and verified directly against the production VibeMark
 
 ==================================================
   SUCCESS! Generation completed via live VibeMarketolog API!
-  Display URL: https://lk.vibemarketolog.ru/files/generation/25904...
+  Display URL: https://lk.vibemarketolog.ru/files/generation/25904?expires=1785846842&signature=bd8d94e3da85c2bd9b4122ad40769fae74f1a5c8ce744e4b5cc9a5c1c360be2c
   Cost charged: 1.2 RUB
   VibeShield Stats: {'circuit_breaker': {'is_tripped': False, 'total_cost_rub': 1.2}, 'cache': {'cache_hits': 0, 'cache_misses': 1}}
 ==================================================
